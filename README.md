@@ -11,4 +11,4 @@ CNN for Sentence Classification (Naver Movie sentiment analysis)
 4. you can use raw ratings.txt or ratings_test.txt and ratings_test.txt in 'prep for modeling' folder
 5. make word2vec model first with tokenize_mecab_300dim_w_sw.py file
 6. make cnn model with word2vec model
-7. you can use 'stopwords.xlsx' in 'prep for modeling' folder for removing stop words (in my case, there was no big difference in val_accuracy(0.7984))
+7. you can use 'stopwords.xlsx' in 'prep for modeling' folder for removing stop words (in my case, there was no big difference in val_accuracy)
