@@ -15,7 +15,7 @@ Train convolutional network for sentiment analysis. Based on "Convolutional Neur
 4. you can use raw ratings.txt or ratings_train.txt and ratings_test.txt in 'prep for modeling' folder
 5. make word2vec model first with tokenize_mecab_300dim_w_sw.py file
 6. make cnn model with word2vec model
-7. you can use 'stopwords.xlsx' in 'prep for modeling' folder for removing stop words (in my case, there was no big difference in val_accuracy) 
+7. you can use 'stopwords.xlsx' in 'prep for modeling' folder for removing stop words (in my case, there was no big difference in val_accuracy(not-removed:0.7993, removed:0.7984))
 
 **사용법**
 1. 본 repository를 로컬에 clone해주세요.
@@ -24,7 +24,7 @@ Train convolutional network for sentiment analysis. Based on "Convolutional Neur
 4. 'prep for modeling' 폴더의 전체 ratings.txt를 사용하거나 이미 나뉘어있는 ratings_train.txt, ratings_test.txt를 사용하시면 됩니다.
 5. tokenize_mecab_300dim_w_sw.py 파일로 word2vec 모델을 먼저 생성해주세요.
 6. 생성한 word2vec 모델로 cnn 모델을 만드시면 됩니다.
-7. 'prep for modeling'폴더에 있는 'stopwords.xlsx' 파일을 불용어 제거를 위해 사용하셔도 됩니다. (저의 경우는 val_accuracy 면에서 큰 차이가 없었습니다.)
+7. 'prep for modeling'폴더에 있는 'stopwords.xlsx' 파일을 불용어 제거를 위해 사용하셔도 됩니다. (저의 경우는 val_accuracy 면에서 큰 차이가 없었습니다.not-removed:0.7993, removed:0.7984)
 
 
 **updated model**<br>
