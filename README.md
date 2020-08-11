@@ -205,7 +205,7 @@ val_loss : 0.4815<br>
 
 ### 전처리 / 최대길이 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\최대길이조절2.png)
+![](./pre_trained_model/images/최대길이조절.png)
 
 - 전처리를 하지 않은 모델의 경우 Accuracy 와 Val_accuracy 다른 두 모델에 비해 0.1 가량 낮은 수치를 보였다.
 - Max_len을 제한하지 않은 경우 Max_len을 제한한 경우와 유사한 Accuracy 와 Val_accuracy를 보였으나 6번째 epoch에서 Early Stopping 메서드에 의해 중단되었다.
@@ -214,7 +214,7 @@ val_loss : 0.4815<br>
 
 ### L2 / L1 규제 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\규제조절2.png)
+![](./pre_trained_model/images/규제조절.png)
 
 - L2 규제를 0.02로 설정했을 때 가장 높은 Accuracy를 보였고, 규제값을 높게 설정했을 때와 L1 규제를 설정했을 때 낮은 Accuracy를 보였다.
 
@@ -222,7 +222,7 @@ val_loss : 0.4815<br>
 
 ### 필터 사이즈 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\필터사이즈조절2.png)
+![](./pre_trained_model/images/필터사이즈조절.png)
 
 - Accuracy 값만을 비교했을 때 필터를 [3,4,5,6,7], 5개의 필터로 설정했을 때 가장 높은 Accuracy를 보였으나 Val_accuracy로 비교했을 때는 필터 사이즈 파라미터가 유의미한 차이를 도출해내지는 못했다.
 
@@ -230,20 +230,20 @@ val_loss : 0.4815<br>
 
 ### 드롭 아웃 조절
 
-
+![](./pre_trained_model/images/드롭아웃조절.png)
 - Dropout을 0.2로 설정했을 때 Dropout을 0.5로 설정했을 때 보다 높은 Accuracy를 보였으나,  Val_accuracy 값에서 유의미한 차이를 도출해내지는 못했다.
 
 
 
 ### Conv 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\conv 64 2겹.png)
+![](./pre_trained_model/images/conv 64_2.png)
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\conv 64 128.png)
+![](./pre_trained_model/images/conv 64_128.png)
 
 
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\Conv조절2.png)
+![](./pre_trained_model/images/Conv조절.png)
 
 - Conv1D를 128로 설정했을 때, 가장 높은 Accuracy를 보였다.
 
@@ -251,4 +251,4 @@ val_loss : 0.4815<br>
 
 ## 예측
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\예측치.png)
+![](./pre_trained_model/images/예측치.png)
