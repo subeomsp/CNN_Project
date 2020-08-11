@@ -237,12 +237,6 @@ val_loss : 0.4815<br>
 
 ### Conv 조절
 
-![](./pre_trained_model/images/conv 64_2.png)
-
-![](./pre_trained_model/images/conv 64_128.png)
-
-
-
 ![](./pre_trained_model/images/Conv조절.png)
 
 - Conv1D를 128로 설정했을 때, 가장 높은 Accuracy를 보였다.
