@@ -3,20 +3,6 @@
 CNN for Sentence Classification (Naver Movie sentiment analysis)<br>
 Train convolutional network for sentiment analysis. Based on "Convolutional Neural Networks for Sentence Classification" by Yoon Kim, [link](https://arxiv.org/pdf/1408.5882v2.pdf).
 
-## CNN modeling with contextualized embedding
-* language : python
-* OS environment : windows
-* IDE : Colaboratory
-
-**사용법**
-1. 본 repository를 로컬에 clone해주세요.
-2. .ipynb 파일입니다.
-3. 주피터 노트북이나 구글 코랩 환경에서 실행하기를 추천합니다.
-4. 'prep for modeling' 폴더의 ratings_train.txt, ratings_test.txt을 xlsx로 저장해주세요.
-5. xlsx 파일을 업로드한 후 pandas로 저장하세요.
-6. pandas의 이름과 댓글이 있는 column명을 전처리 함수에 넣어주세요.
-7. 함수의 output인 벡터를 label과 함께 학습시켜주면 됩니다.
-
 ## CNN modeling with mecab word2vec model
 * language : python
 * OS environment : macOS Catalina
