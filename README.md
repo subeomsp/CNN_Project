@@ -246,3 +246,9 @@ val_loss : 0.4815<br>
 ## 예측
 
 ![](./pre_trained_model/images/예측치.png)
+
+- 각 모델의 영화리뷰의 10번째부터 20번째 리뷰까지의 예측치
+- 사용한 모델 
+-- 1. L2 = 0.02 / Filter = 3, 4, 5 / Dropout = 0.5
+-- 2. L2 = 0.02 / Filter = 3, 4, 5, 6, 7 / Dropout = 0.5
+-- 3. L2 = 0.2 /  Filter = 3, 4, 5 / Droupout = 0.5
