@@ -171,7 +171,7 @@
 
 ### L2 / L1 규제 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\규제조절2.png)
+![](./images/규제조절.png)
 
 - L2 규제를 0.02로 설정했을 때 가장 높은 Accuracy를 보였고, 규제값을 높게 설정했을 때와 L1 규제를 설정했을 때 낮은 Accuracy를 보였다.
 
@@ -179,7 +179,7 @@
 
 ### 필터 사이즈 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\필터사이즈조절2.png)
+![](./images/필터사이즈조절.png)
 
 - Accuracy 값만을 비교했을 때 필터를 [3,4,5,6,7], 5개의 필터로 설정했을 때 가장 높은 Accuracy를 보였으나 Val_accuracy로 비교했을 때는 필터 사이즈 파라미터가 유의미한 차이를 도출해내지는 못했다.
 
@@ -187,7 +187,7 @@
 
 ### 드롭 아웃 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\드롭아웃조절2.png)
+![](./images/드롭아웃조절.png)
 
 
 
@@ -197,13 +197,13 @@
 
 ### Conv 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\conv 64 2겹.png)
+![](./images/conv 64_2.png)
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\conv 64 128.png)
+![](./images/conv 64_128.png)
 
 
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\Conv조절2.png)
+![](./images/Conv조절.png)
 
 - Conv1D를 128로 설정했을 때, 가장 높은 Accuracy를 보였다.
 
@@ -211,4 +211,4 @@
 
 ## 예측
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\예측치.png)
+![](./images/예측치.png)
