@@ -162,7 +162,7 @@
 
 ### 전처리 / 최대길이 조절
 
-![](C:\Users\sb\TIL\TIL\CNN_project\모델비교\최대길이조절2.png)
+![](CNN_Project/pre_trained_model/images/최대길이조절.png)
 
 - 전처리를 하지 않은 모델의 경우 Accuracy 와 Val_accuracy 다른 두 모델에 비해 0.1 가량 낮은 수치를 보였다.
 - Max_len을 제한하지 않은 경우 Max_len을 제한한 경우와 유사한 Accuracy 와 Val_accuracy를 보였으나 6번째 epoch에서 Early Stopping 메서드에 의해 중단되었다.
