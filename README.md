@@ -1,6 +1,7 @@
 # CNN_Project
 
-CNN for Sentence Classification (Naver Movie sentiment analysis)
+CNN for Sentence Classification (Naver Movie sentiment analysis)<br>
+Train convolutional network for sentiment analysis. Based on "Convolutional Neural Networks for Sentence Classification" by Yoon Kim, [link](https://arxiv.org/pdf/1408.5882v2.pdf).
 
 ## CNN modeling with mecab word2vec model
 * language : python
@@ -28,13 +29,14 @@ CNN for Sentence Classification (Naver Movie sentiment analysis)
 
 **updated model**<br>
 2020.08.10<br>
+preprocessing train/test sentences with mecab ([click to see the code](https://github.com/jyshin0926/CNN-for-sentence-classification/blob/master/CNN_word2vec_mecab300_update.ipynb))<br>
 val_accuracy : 0.8437 <br>
-val_loss : 0.4047 <br>
+val_loss : 0.4047<br>
 
 2020.08.11<br>
-val_accuracy : 0.8468<br>
+adding l2 regularization ([click to see the code](https://github.com/jyshin0926/CNN-for-sentence-classification/blob/master/CNN_word2vec_mecab300_update_0.8468.ipynb))<br>
+val_accuracy : 0.8468 <br>
 val_loss : 0.4815<br>
-<br>
 
 ## CNN modeling with fasttext model
 * language : python
